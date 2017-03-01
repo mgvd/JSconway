@@ -1,11 +1,44 @@
-<canvas id="canvas" width="900" height="450"></canvas>
-<ul>
-    <li class="button" id="start_button"><a href="">Start</a>
-    </li>
-    <li class="button" id="stop_button"><a href="">Stop</a>
-    </li>
-    <li class="button" id="random_button"><a href="">Randomize</a>
-    </li>
-    <li class="button" id="clear_button"><a href="">Clear</a>
-    </li>
-</ul>
+<html>
+
+<head>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="jsconway.js"></script>
+
+    <style>
+        li {
+            display: inline;
+            margin: 4px;
+            padding: 2px;
+            background-color: #BBB;
+            border: solid 1px black;
+        }
+
+        li a {
+            color: black;
+            text-decoration: none;
+            font-family: "Helvetica Neue", Helvetica, Arial;
+            font-weight: bold;
+            padding: 2px;
+        }
+
+        li a:hover {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <canvas id="canvas" width="900" height="450"></canvas>
+    <ul>
+        <li class="button" id="start_button"><a href="">Start</a>
+        </li>
+        <li class="button" id="stop_button"><a href="">Stop</a>
+        </li>
+        <li class="button" id="random_button"><a href="">Randomize</a>
+        </li>
+        <li class="button" id="clear_button"><a href="">Clear</a>
+        </li>
+    </ul>
+</body>
+
+</html>
