@@ -1,6 +1,6 @@
 # JSconway
 A javascript impl of Conways GameOfLife
 
-JsFiddle: https://jsfiddle.net/mgvd/bjqjt0fu/
+Live demo: https://mgvd.github.io/JSconway/
 
 https://en.wikipedia.org/wiki/Conway's_Game_of_Life
